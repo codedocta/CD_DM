@@ -4,6 +4,7 @@ import pickle
 import csv
 import platform
 
+
 class FileManager:
     """
     A class to manage file-related operations.

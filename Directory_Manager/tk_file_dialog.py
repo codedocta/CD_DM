@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import filedialog
 
 
-class FileDialog:
+class TkFileDialog:
     """
     A class to manage common file dialog operations.
     """
