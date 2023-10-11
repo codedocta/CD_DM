@@ -1,4 +1,6 @@
 # CD_DM: Directory Manager Package
+CD is for Code Docta.
+
 
 The `CD_DM` project houses the `Directory Manager` package, a comprehensive set of utilities designed for efficient file and directory management, ZIP operations, and more.
 
