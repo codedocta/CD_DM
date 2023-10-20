@@ -9,7 +9,7 @@ The `CD_DM` project houses the `Directory Manager` package, a comprehensive set 
 To install the `Directory Manager` package, you can use pip:
 
 ```bash
-pip install CD_DM
+pip install CD-DM==0.3.1
 ```
 
 ## Features
@@ -73,7 +73,7 @@ Contributions are welcome! Please open an issue or submit a pull request on GitH
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 # To Do
-add to pypi
+
 add documentation to codedocta.com
 unitest
 
