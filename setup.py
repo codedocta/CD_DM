@@ -7,7 +7,7 @@ setup(
     description='A package containing utilities for file and directory management, ZIP operations, and more.',
     author='Nicholas Capasso',
     author_email='codedocta@gmail.com',
-    url='https://github.com/codedocta/CD_MD',
+    url='https://github.com/codedocta/CD_DM/archive/refs/tags/v_0.3.tar.gz',
     packages=find_packages(),
     install_requires=[
         'pyside6==6.5.3',  # For FileDialog with PySide6
