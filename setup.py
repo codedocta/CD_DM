@@ -14,7 +14,7 @@ setup(
         'pyqt6==6.5.2',  # For FileDialog with PyQt6
     ],
     classifiers=[
-        'Development Status :: 2 - Beta',
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',  # Adjust if you're using a different license
 
