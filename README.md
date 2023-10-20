@@ -16,19 +16,21 @@ pip install CD_DM
 
 The `Directory Manager` package contains the following classes, each in its separate file:
 
-### 1. FileManager
+### 1. Directory Manager
 
-- **File**: `fm.py`
-- **Description**: Handles various file operations like reading, writing, and managing different file formats such as JSON, CSV, HTML, and Pickle.
-
-### 2. DirectoryManager
-
-- **File**: `dm.py`
+- **File**: `directory_manager.py`
 - **Description**: Manages directory-related operations like creating, deleting, listing files, and more.
 
-### 3. PathManager
 
-- **File**: `pm.py`
+### 2. File Manager
+
+- **File**: `file_manager.py`
+- **Description**: Handles various file operations like reading, writing, and managing different file formats such as JSON, CSV, HTML, and Pickle.
+
+
+### 3. Path Manager
+
+- **File**: `path_manager.py`
 - **Description**: Provides utilities for handling and manipulating file paths in a cross-platform manner.
 
 ### 4. FileDialogs
@@ -45,7 +47,7 @@ The `Directory Manager` package contains the following classes, each in its sepa
 - **Description**: Facilitates file dialog operations for PyQt6.
 
 
-### 5. ZipManager
+### 5. Zip Manager
 
 - **File**: `zipper.py`
 - **Description**: Manages ZIP-related operations, including zipping and unzipping files and directories.
@@ -57,9 +59,9 @@ Each class provides static methods that can be used directly without instantiati
 Example:
 
 ```python
-from DirectoryManager.fm import FileManager
+from CD_DM.Directory_Manager.file_manager import FileManager as fm
 
-data = FileManager.read_json("path_to_json_file.json")
+data = fm.read_json("path_to_json_file.json")
 ```
 
 ## Contributing
@@ -69,4 +71,9 @@ Contributions are welcome! Please open an issue or submit a pull request on GitH
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+# To Do
+add to pypi
+add documentation to codedocta.com
+unitest
 
