@@ -5,9 +5,9 @@ setup(
     name='CD_MD',
     version=version.__version__,
     description='A package containing utilities for file and directory management, ZIP operations, and more.',
-    author='Nicholas Capasso',
+    author='codedocta',
     author_email='codedocta@gmail.com',
-    url='https://github.com/codedocta/CD_DM/archive/refs/tags/v_0.3.tar.gz',
+    url='https://codedocta.com',
     packages=find_packages(),
     install_requires=[
         'pyside6==6.5.3',  # For FileDialog with PySide6
@@ -25,4 +25,6 @@ setup(
         'Bug Reports': 'https://github.com/codedocta/CD_MD/issues',  # Replace with your issues URL
         'Source': 'https://github.com/codedocta/CD_MD/',  # Replace with your repository URL
     },
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown"
 )
