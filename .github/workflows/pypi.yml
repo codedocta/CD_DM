@@ -7,7 +7,7 @@ jobs:
       name: pypi
       url: https://codedocta.com
     permissions:
-      id-token: pypi-AgEIcHlwaS5vcmcCJDI4YzM1ZTAwLWIxZGEtNGIwMy1hNDlmLTczNWJmM2Y5NTc2YgACKlszLCI3MmFlNTNmOS1iMmEzLTRmYWYtYjg0MS1kNDkwYTQ2YmJhMTAiXQAABiAmprOmZ0scxtR8p5pm50ln2zzsazSBlrEcv0iNKopSdw
+      id-token: 
     steps:
     # retrieve your distributions here
 
