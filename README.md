@@ -9,7 +9,7 @@ The `CD_Directory_Manager` project houses the `Directory Manager` package, a com
 To install the `Directory Manager` package, you can use pip:
 
 ```bash
-pip install CD-DM==0.3.2
+pip install CD-Directory_Manager==0.3.3
 ```
 
 ## Features
