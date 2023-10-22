@@ -22,8 +22,8 @@ setup(
     ],
     keywords='file management, directory management, zip operations',
     project_urls={
-        'Bug Reports': 'https://github.com/codedocta/CD_MD/issues',  # Replace with your issues URL
-        'Source': 'https://github.com/codedocta/CD_MD/',  # Replace with your repository URL
+        'Bug Reports': 'https://github.com/codedocta/CD_Directory_Manager/issues',  # Replace with your issues URL
+        'Source': 'https://github.com/codedocta/CD_Directory_Danager/',  # Replace with your repository URL
     },
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown"
