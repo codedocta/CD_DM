@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 from Directory_Manager import version
 
 setup(
-    name='CD_DM',
+    name='CD_Directory_Manager',
     version=version.__version__,
     description='A package containing utilities for file and directory management, ZIP operations, and more.',
     author='codedocta',

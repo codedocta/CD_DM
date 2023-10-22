@@ -1,15 +1,15 @@
-# CD_DM: Directory Manager Package
+# CD_Directory_Manager: Directory Manager Package
 CD is for Code Docta.
 
 
-The `CD_DM` project houses the `Directory Manager` package, a comprehensive set of utilities designed for efficient file and directory management, ZIP operations, and more.
+The `CD_Directory_Manager` project houses the `Directory Manager` package, a comprehensive set of utilities designed for efficient file and directory management, ZIP operations, and more.
 
 ## Installation
 
 To install the `Directory Manager` package, you can use pip:
 
 ```bash
-pip install CD-DM==0.3.1
+pip install CD-DM==0.3.2
 ```
 
 ## Features
