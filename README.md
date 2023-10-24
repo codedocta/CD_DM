@@ -9,9 +9,12 @@ The `CD_Directory_Manager` project houses the `Directory Manager` package, a com
 To install the `Directory Manager` package, you can use pip:
 
 ```bash
-pip install CD-Directory_Manager==0.3.3
+pip install cd-directory-manager
 ```
-
+Update
+```commandline
+pip install --upgrade cd-directory-manager
+```
 ## Features
 
 The `Directory Manager` package contains the following classes, each in its separate file:
@@ -72,8 +75,11 @@ Contributions are welcome! Please open an issue or submit a pull request on GitH
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
+More documentation at:
+[Code Docta](https://codedocta.com "Code Docta")
+
+
 # To Do
 
-add documentation to codedocta.com
 unitest
 
