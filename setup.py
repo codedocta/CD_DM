@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-from Directory_Manager import version
+
 
 setup(
     name='CD_Directory_Manager',
