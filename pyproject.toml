@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "CD_Directory_Manager"
-version = "0.4.2"  # Replace with your package version
+version = "0.4.2"
 description = "A package containing utilities for file and directory management, ZIP operations, and more."
 authors = [
     { name = "codedocta", email = "codedocta@gmail.com" },
@@ -13,12 +13,12 @@ maintainers = [
     { name = "codedocta", email = "codedocta@gmail.com" },
 ]
 readme = "README.md"
-license = { file = "LICENSE" }  # Adjust based on your license file
+license = { file = "LICENSE" }
 keywords = ["file management", "directory management", "zip operations"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",  # Adjust if you're using a different license
+    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3.11",
 ]
 
@@ -27,10 +27,10 @@ homepage = "https://codedocta.com"
 repository = "https://github.com/codedocta/CD_Directory_Manager"
 bug-tracker = "https://github.com/codedocta/CD_Directory_Manager/issues"
 
-project.dependencies = [
-    pyside6 = "^6.5.3",
-    pyqt6 = "^6.5.2"
-
+[project]
+dependencies = [
+    "pyside6 ^6.5.3",
+    "pyqt6 ^6.5.2"
 ]
 
 [tool.setuptools]
