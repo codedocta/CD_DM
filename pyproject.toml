@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cd_directory_manager"
-version = "0.4.3"  # Replace with your actual version
+version = "0.4.4"  # Replace with your actual version
 description = "A package containing utilities for file and directory management, ZIP operations, and more."
 readme = "README.md"
 authors = [
